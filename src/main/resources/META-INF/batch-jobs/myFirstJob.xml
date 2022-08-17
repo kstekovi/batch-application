@@ -1,0 +1,11 @@
+<job id="myFirstJob" restartable="true">
+
+    <listeners>
+        <listener ref="myJobListener"/>
+    </listeners>
+
+    <step id="myBatchStep">
+        <batchlet ref="myBatchlet"/>
+    </step>
+
+</job>
